@@ -251,12 +251,12 @@
             },
             {
                 id: 4, eje: 1, name: "Ingreso laboral real promedio",
-                baseline: "Bs. 2,100", result: "Bs. 2,450", type: "line",
+                baseline: "Bs. 2,100", result: "Bs. 3,300", type: "line",
                 formula: "Sumatoria(Ingresos laborales deflactados) / Total de ocupados",
                 elements: "Ingresos nominales, Índice de Precios al Consumidor (IPC).",
                 method: "Encuesta de Hogares - Anual.",
                 justification: "Refleja el poder adquisitivo real de los trabajadores. Es un proxy directo del bienestar económico de los hogares.",
-                dataPoints: [2100, 2150, 2220, 2350, 2450]
+                dataPoints: [2100, 2150, 2220, 2350, 2450, 3300]
             },
             // Eje 2
             {
@@ -573,7 +573,7 @@
             }
 
             // Create labels (Years - hypothetical)
-            const labels = ['2021', '2022', '2023', '2024', '2025'];
+            const labels = ['2021', '2022', '2023', '2024', '2025', '2026'];
             
             // Config based on type
             const isBar = indicator.type === 'bar';
